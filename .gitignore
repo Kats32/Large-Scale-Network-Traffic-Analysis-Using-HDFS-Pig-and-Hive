@@ -1,0 +1,10 @@
+# Large dataset files
+data/*.csv
+
+# Pig execution logs
+pig_*.log
+
+# Hadoop / Hive generated files
+*.log
+.metastore/
+derby.log
