@@ -106,6 +106,6 @@ valid_data = FILTER selected_data BY
 -- Remove duplicate records
 cleaned_data = DISTINCT valid_data;
 
--- Store cleaned data in HDFS
-STORE cleaned_data INTO '/network_project/cleaned'
+-- Store cleaned PortScan data in a separate directory
+STORE cleaned_data INTO '/network_project/cleaned_portscan'
     USING PigStorage(',');
