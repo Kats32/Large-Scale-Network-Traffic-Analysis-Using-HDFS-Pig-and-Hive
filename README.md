@@ -16,16 +16,16 @@ The project demonstrates how big data technologies can be integrated to process 
 
 ## 3. Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| Apache Hadoop 3.3.6 | Distributed storage and HDFS operations |
-| Apache Pig 0.18.0 | Data cleaning and ETL processing |
-| Apache Hive 4.0.1 | SQL-based analysis and querying |
-| Beeline | Connecting to HiveServer2 and executing queries |
-| Python | Generating visualizations |
-| Matplotlib / Pandas | Plotting and result analysis |
-| Ubuntu on WSL | Development and execution environment |
-| CICIDS2017 | Network traffic dataset |
+| Technology          | Purpose                                         |
+| ------------------- | ----------------------------------------------- |
+| Apache Hadoop 3.3.6 | Distributed storage and HDFS operations         |
+| Apache Pig 0.18.0   | Data cleaning and ETL processing                |
+| Apache Hive 4.0.1   | SQL-based analysis and querying                 |
+| Beeline             | Connecting to HiveServer2 and executing queries |
+| Python              | Generating visualizations                       |
+| Matplotlib / Pandas | Plotting and result analysis                    |
+| Ubuntu on WSL       | Development and execution environment           |
+| CICIDS2017          | Network traffic dataset                         |
 
 ## 4. Dataset
 
@@ -102,8 +102,6 @@ bigdata_project/
 ├── .gitignore
 └── README.md
 ```
-
-
 
 ## 7. Requirements
 
@@ -235,14 +233,14 @@ The project performs the following analyses:
 
 The completed pipeline processed **2,748,871 network flow records** across the eight datasets.
 
-| Metric | Result |
-|---|---:|
+| Metric                |    Result |
+| --------------------- | --------: |
 | Total processed flows | 2,748,871 |
-| Benign flows | 2,259,412 |
-| Attack flows | 489,459 |
-| Benign traffic | 82.19% |
-| Attack traffic | 17.81% |
-| Number of datasets | 8 |
+| Benign flows          | 2,259,412 |
+| Attack flows          |   489,459 |
+| Benign traffic        |    82.19% |
+| Attack traffic        |    17.81% |
+| Number of datasets    |         8 |
 
 The analysis identified multiple traffic categories, including DDoS, DoS, PortScan, Bot, brute-force attacks, web attacks, and infiltration.
 
@@ -275,17 +273,17 @@ These results describe the processed dataset and should not be interpreted as re
 **Project Title:** Large-Scale Network Traffic Analysis Using HDFS, Apache Pig, and Apache Hive
 
 **Team Members:**
+
 - Member 1: M.Kavya
 - Member 2: T.Srija
 - Member 3: K.Saikrishna
 
 ## 14. References
 
-1. Canadian Institute for Cybersecurity, *CICIDS2017 Dataset*. https://www.unb.ca/cic/datasets/ids-2017.html
+1. Canadian Institute for Cybersecurity, _CICIDS2017 Dataset_. https://www.unb.ca/cic/datasets/ids-2017.html
 2. Apache Hadoop Documentation. https://hadoop.apache.org/docs/
 3. Apache Pig Documentation. https://pig.apache.org/docs/
 4. Apache Hive Documentation. https://hive.apache.org/
 
 ---
 
-**Project Summary:** This project demonstrates an end-to-end batch big data pipeline that combines HDFS for storage, Apache Pig for ETL, Apache Hive for analytical queries, and Python for visualization of large-scale network traffic data.
